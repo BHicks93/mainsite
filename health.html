@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Health – Brian Hicks</title>
+    <meta name="description" content="Brian Hicks – Graphic Designer.">
+    <meta name="keyword" content="Brian Hicks, Brian, Hicks, Graphic Designer, Graphic Design, RISD, GD, Typography, Health, Athletics">
+     <!-- For iPhone -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/> <!--320-->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <!-- Slick CSS -->
+    <link rel="stylesheet" href="css/vendor/slick.css">
+    <link rel="stylesheet" href="css/vendor/slick-theme.css">
+    <!-- Personal CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Load jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="https://malsup.github.com/jquery.cycle2.js"></script>
+    <script type="text/javascript" src="js/vendor/cycle-swipe.js"></script>
+  </head>
+  <body>
+    <div class="nav-container">
+      <div class="name"><a href="/">Brian Hicks</a></div>
+      <div class="name">Contact: <a href="mailto:bhicks@alumni.risd.edu">bhicks@alumni.risd.edu</a></div>
+    </div>
+    <div class="project-header">
+      <section class="center slider">
+        <div>
+          <img src="images/dp/DP-01.jpg">
+          <div class="caption">
+            <p><span>Health</span>, Broadsheet Publication, RISD, 2015</p>
+          </div>
+        </div>
+        <div>
+          <img src="images/reform/reform-cover.jpg">
+          <div class="caption">
+            <p><span>Reformed</span>, Newly Formed, 610 Page Book, RISD, 2015</p>
+          </div>
+        </div>
+        <div>
+          <img src="images/cycling/cycling-cover.jpg">
+          <div class="caption">
+            <p><span>RISD Cycling</span>, Jersey Design and Art Direction, RISD, 2015</p>
+          </div>
+        </div>
+        <div>
+          <img src="images/sqsp/sqsp-01.jpg">
+          <div class="caption">
+            <p><span>Fairfield</span>, Template Design, Squarespace, 2017</p>
+          </div>
+        </div>
+        <div>
+          <img src="images/circle/circle-member-badge-black.jpg">
+          <div class="caption">
+            <p><span>Circle</span>, Logo Design and Brand Development, Squarespace, 2017</p>
+          </div>
+        </div>
+        <div>
+          <img src="images/strava/strava-01.jpg">
+          <div class="caption">
+            <p><span>Elle Anderson</span>, Cycling Kit Design, Strava, 2015</p>
+          </div>
+        </div>
+      </section>
+      <div class="pagingInfo"></div>
+      <div id="view"></div>
+    </div>
+
+  <!-- Slick JS -->
+  <script type="text/javascript" src="js/vendor/slick.js"></script>
+  <!-- Custom JS -->
+  <script src="js/script.js"></script>
+  <script type="text/javascript">
+    var $link = $('#view');
+    var $status = $('.pagingInfo');
+    var $slickElement = $('.center');
+    $slickElement.on('init reInit afterChange', function(event, slick, currentSlide, nextSlide){
+    var i = (currentSlide ? currentSlide : 0) + 1;
+    $status.text(i + '/' + slick.slideCount);
+    $( "#view" ).append('<a href="/project-' + i + '.html' + '">View</a>');
+    });
+  </script>
+</body>
+</html>
