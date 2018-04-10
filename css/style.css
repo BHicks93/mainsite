@@ -41,8 +41,8 @@ a:hover{color:#333333; transition: color .4s linear; -webkit-transition: color .
   .project-link{display: none;}
   .title{font-size: 24px; margin-bottom: 10px; padding: 0px;  line-height: 38px; letter-spacing: 0px; border-bottom: 1px solid #eee;}
   .cycle-prev, .cycle-next {display: block; position: absolute; top: 0px; width: 50%; z-index: 800; height: 100%;}
-  .cycle-prev{left: 0px; cursor:url(../images/arrow-left.png) 10 25,auto;}
-  .cycle-next {right: 0px; cursor:url(../images/arrow-right.png) 10 25,auto;}
+  .cycle-prev{left: 0px; cursor:url(../images/arrow-left.png) 5 15,auto;}
+  .cycle-next {right: 0px; cursor:url(../images/arrow-right.png) 5 15,auto;}
 }
 @media(max-width:640px){
   body{text-align: left;}
@@ -55,8 +55,8 @@ a:hover{color:#333333; transition: color .4s linear; -webkit-transition: color .
   .slide {margin:0px 0px 40px 0px;}
   .cycle-caption{padding:5px;}
   .cycle-prev, .cycle-next {display: block; position: absolute; top: 0px; width: 50%; z-index: 800; height: 100%;}
-  .cycle-prev{left: 0px; cursor:url(../images/arrow-left.png) 10 25,auto;}
-  .cycle-next {right: 0px; cursor:url(../images/arrow-right.png) 10 25,auto;}
+  .cycle-prev{left: 0px; cursor:url(../images/arrow-left.png) 5 15,auto;}
+  .cycle-next {right: 0px; cursor:url(../images/arrow-right.png) 5 15,auto;}
   .text-container{position: relative; top:-22px; text-align: center; padding: 0px 0px 50px 10px; margin:0 auto; }
   .project-title, .project-material, .project-client, .project-year{float: left;}
   .project-title {text-transform: uppercase; font-weight: 700;}
