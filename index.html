@@ -1,21 +1,25 @@
+<!--
+
+
+
+
+      Info: NYC Based. Squarespace Web Design. RISD GD BFA.
+  Interest: Web Design & Development, Environmental Experiences.
+   Contact: bhicks@alumni.risd.edu or twitter.com/brian_gd
+
+
+
+
+-->
+
 <!DOCTYPE html>
 <html>
   <head>
     <meta charset="UTF-8">
     <title>Brian Hicks</title>
-    <meta name="description" content="Brian Hicks – Graphic Designer.">
-    <meta name="keyword" content="Brian Hicks, Brian, Hicks, Graphic Designer, Graphic Design, RISD, GD, Typography, Health, Athletics">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-     <!-- For iPhone -->
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/> <!--320-->
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <!-- Slick CSS -->
-    <link rel="stylesheet" href="css/vendor/slick.css">
-    <link rel="stylesheet" href="css/vendor/slick-theme.css">
-    <!-- Personal CSS -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <link rel="shortcut icon" href="/favicon.ico">
     <link rel="stylesheet" href="css/style.css">
-    <!-- Load jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
     <script type="text/javascript" src="js/vendor/jquery.cycle2.min.js"></script>
     <script type="text/javascript" src="js/vendor/cycle-swipe.js"></script>
@@ -24,9 +28,7 @@
   <body>
     <div class="nav-container">
       <div class="name"><a href="/">Brian Hicks</a></div>
-      <div class="name info"><a href="/">&#8258;</a></div>
-
-      <!-- <div class="name">Contact: <a href="mailto:bhicks@alumni.risd.edu">bhicks@alumni.risd.edu</a></div> -->
+      <div class="name info">View source for more information.</div>
     </div>
       </div>
     <div class="content">
@@ -40,11 +42,12 @@
           <div class="cycle-prev"></div>
           <div class="cycle-next"></div>
           <img src="images/msg/neon-01.jpg" />
+          <img src="images/msg/neon-02.gif" />
           <img src="images/msg/neon-03.gif" />
           <img src="images/msg/neon-04.gif" />
-          <img src="images/msg/neon-05.gif" />
+          <img src="images/msg/neon-05.jpg" />
           <img src="images/msg/neon-06.jpg" />
-          <img src="images/msg/neon-08.jpg" />
+          <img src="images/msg/neon-07.jpg" />
         </div>
         <div class="text-container">
           <div class="project-info">
@@ -281,19 +284,6 @@
         </div>
       </div>
     </div>
-    <!-- Slick JS -->
-    <script type="text/javascript" src="js/vendor/slick.js"></script>
-    <!-- Custom JS -->
     <script src="js/script.js"></script>
-    <script type="text/javascript">
-      var $link = $('#view');
-      var $status = $('.pagingInfo');
-      var $slickElement = $('.center');
-      $slickElement.on('init reInit afterChange', function(event, slick, currentSlide, nextSlide){
-      var i = (currentSlide ? currentSlide : 0) + 1;
-      $status.text(i + '/' + slick.slideCount);
-      $( "#view" ).append('<a href="/project-' + i + '.html' + '">View</a>');
-      });
-    </script>
   </body>
 </html>
