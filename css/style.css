@@ -7,8 +7,8 @@ body {
   position:relative;
   font-family: 'Inter UI', Verdana, Arial, Helvetica, sans-serif;
   font-weight: 300;
-  font-size: 32px;
-  line-height: 42px;
+  font-size: 8.2vw;
+  line-height: 9.2vw;
   text-transform: none;
   text-align: left;
   transition: all ease-in-out .3s;
@@ -17,6 +17,7 @@ body {
 a{text-decoration: none;}
 a:visited{color:#000000;}
 a:hover{color:#b0b0b0; transition: color .2s ease-out; -webkit-transition: color .2s ease-out;}
+p {	margin: 0;	padding: 0;	border: 0;	font-size: 100%;	font: inherit;  vertical-align: baseline;}
 
 @media(max-width:640px){
 
