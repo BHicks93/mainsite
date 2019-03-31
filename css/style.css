@@ -7,44 +7,68 @@ body {
   position:relative;
   font-family: 'Inter UI', Verdana, Arial, Helvetica, sans-serif;
   font-weight: 300;
-  font-size: 9.5px;
-  line-height: 18px;
+  font-size: 18px;
+  line-height: 32px;
   text-transform: none;
   text-align: left;
   transition: all ease-in-out .3s;
+  overflow: hidden;
 }
 .name, a, .name a{color:#000000;}
 .info {position: relative; right: 0px;}
 a{text-decoration: none;}
 a:visited{color:#000000;}
 a:hover{color:#b0b0b0; transition: color .2s ease-out; -webkit-transition: color .2s ease-out;}
-.cycle-caption{color: #656565; text-align: right; z-index: 700;}
 .prev{position: absolute; color: white; top: 50%; left: 15px; z-index: 700;}
 .next{position: absolute; color: white; top: 50%; right: 15px; z-index: 700;}
 .title{color:#333333; font-size: 38px; padding-bottom:10px; font-weight: 400; line-height: 38px; letter-spacing: -2px;}
 .cycle-prev, .cycle-next {display: none;}
 
-@media(min-width:640px){
-  body{ max-width: 1000px; margin: 0 auto;}
-  .name{font-size: 16px; float: left; margin-left: 50px; padding-top:25px; text-align: center; }
-  .info{font-size: 9.5px;}
-  .project{float: left; padding: 50px 50px 0px 50px; width 100vw; height: auto;}
+@media(min-width:1590px){
+  body {max-width: 1585px; margin: 0 auto;}
+  .name{font-size: 21px; font-weight: 400; float: left; margin-left: 15px; padding-top:25px; text-align: center; }
+  .info{font-size: 18px; font-weight: 300;}
+  .project{clear:left; padding: 50px 0px 0px 15px; width: 100vw; height: auto;}
   .project:first-child{padding-top: 25px;}
+  .cycle-slideshow{float: left; max-width: 1043px;}
   img {width:100%; height:auto;}
-  .project-info{margin:25px 0px 0px 16px;}
-  .project-title{color:black; font-size: 24px; font-weight: 700;}
-  .project-title, .project-material, .project-client, .project-year{float:left; padding: 0px 8px 20px 8px;}
-  .description{clear:both; font-size: 15px; line-height: 28px; margin:0px 16px 25px 25px;}
+  .text-container{float: left; margin-left: 15px;}
+  .project-title{color:black; font-size: 80px; line-height: 80px; font-weight: 200; padding-right: 10px;}
+  .project-material, .project-client, .project-year{float:left; font-size: 11px; line-height: 18px; font-weight: 300;}
+  .project-material{padding: 10px 8px 20px 0px;}
+  .project-client, .project-year {padding: 10px 8px 20px 8px;}
+  .description{clear: both; margin:25px 0px 25px 0px; max-width: 500px;}
   .project-link{color: blue;}
   .title{font-size: 24px; margin-bottom: 10px; padding: 0px;  line-height: 38px; letter-spacing: 0px; border-bottom: 1px solid #eee;}
   .cycle-prev, .cycle-next {display: block; position: absolute; top: 0px; width: 50%; z-index: 800; height: 100%;}
   .cycle-prev{left: 0px; cursor:url(../images/arrow-left.png) 0 25, e-resize;}
   .cycle-next {right: 0px; cursor:url(../images/arrow-right.png) 20 25, n-resize;}
 }
-@media(max-width:640px){
+@media (min-width: 901px) and (max-width: 1590px) {
+  body {max-width: 1074px; margin: 0 auto;}
+  .name{font-size: 21px; font-weight: 400; float: left; margin-left: 15px; padding-top:25px; text-align: center; }
+  .info{font-size: 18px; font-weight: 300;}
+  .project{clear:left; padding: 0px 0px 0px 15px; width: 100vw; height: auto;}
+  .project:first-child{padding-top: 25px;}
+  .cycle-slideshow{clear: left; max-width: 1043px;}
+  img {width:100%; height:auto;}
+  .text-container{clear:left; max-width:1043px; margin: 50px 0px 60px 0px;}
+  .project-info{float: left; margin: 0px 50px 100px 0px;}
+  .project-title{color:black; font-size: 80px; line-height: 80px; font-weight: 200; padding-right: 10px;}
+  .project-material, .project-client, .project-year{float:left; font-size: 11px; line-height: 18px; font-weight: 300;}
+  .project-material{padding: 10px 8px 20px 0px;}
+  .project-client, .project-year {padding: 10px 8px 20px 8px;}
+  .description{margin:0px 50px 0px 100px;}
+  .project-link{color: blue;}
+  .title{font-size: 24px; margin-bottom: 10px; padding: 0px;  line-height: 38px; letter-spacing: 0px; border-bottom: 1px solid #eee;}
+  .cycle-prev, .cycle-next {display: block; position: absolute; top: 0px; width: 50%; z-index: 800; height: 100%;}
+  .cycle-prev{left: 0px; cursor:url(../images/arrow-left.png) 0 25, e-resize;}
+  .cycle-next {right: 0px; cursor:url(../images/arrow-right.png) 20 25, n-resize;}
+}
+@media(max-width:900px){
   body{text-align: left;}
-  .name{float:left; font-size: 16px; font-weight: 400; text-align: left; padding: 20px 0px 50px 20px;}
-  .info{display: none;}
+  .name{float:left; font-size: 21px; font-weight: 400; text-align: left; margin: 15px 0px 0px 15px;}
+  .info{font-size: 18px; font-weight: 300;}
   .text{padding-top: 50px;}
   .nav-container{position: absolute; width: 100vw;}
   .container{ margin: 0 auto; padding-top: 90px; text-align: center;}
@@ -55,10 +79,8 @@ a:hover{color:#b0b0b0; transition: color .2s ease-out; -webkit-transition: color
   .cycle-prev, .cycle-next {display: block; position: absolute; top: 0px; width: 50%; z-index: 800; height: 100%;}
   .cycle-prev{left: 0px; cursor:url(../images/arrow-left.png) 0 25, e-resize;}
   .cycle-next {right: 0px; cursor:url(../images/arrow-right.png) 20 25, n-resize;}
-  .text-container{position: relative; top:-22px; text-align: center; padding: 0px 0px 50px 10px; margin:0 auto; }
-  .project-title, .project-material, .project-client, .project-year{float: left;}
+  .text-container, .project-material, .project-client, .project-year{display: none;}
   .project-title {text-transform: uppercase; font-weight: 700; color:#000;}
-  .project-title::after, .project-material::after, .project-client::after {content: ",";}
   .description, .project-link {display: none;}
   .project-link a {float: both; color:blue;}
 }
