@@ -12,7 +12,7 @@ body {
   text-transform: none;
   text-align: left;
   transition: all ease-in-out .3s;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 .name, a, .name a{color:#000000;}
 .info {position: relative; right: 0px;}
