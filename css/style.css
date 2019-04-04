@@ -43,7 +43,7 @@ a:hover{color:#b0b0b0; transition: color .2s ease-out; -webkit-transition: color
   .cycle-prev, .cycle-next {display: block; position: absolute; top: 0px; width: 50%; z-index: 800; height: 100%;}
   .cycle-prev{left: 0px; cursor:url(../images/arrow-left.png) 0 25, e-resize;}
   .cycle-next {right: 0px; cursor:url(../images/arrow-right.png) 20 25, n-resize;}
-  cycle-slideshow:nth-last-child(1) {margin-bottom:100px;} 
+  .cycle-slideshow:nth-last-child(1) {margin-bottom:100px;} 
 }
 @media (min-width: 901px) and (max-width: 1590px) {
   body {max-width: 1074px; margin: 0 auto;}
