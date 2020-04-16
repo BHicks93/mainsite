@@ -23,10 +23,10 @@ a:hover{color:#b0b0b0; transition: color .2s ease-out; -webkit-transition: color
 
 @media all and (min-width: 769px){
   body {max-width: 1074px; margin: 0 auto;}
-  .name{font-size: 21px; font-weight: 400; float: left; margin-left: 15px; padding-top:25px; text-align: center; }
-  .info{font-size: 18px; font-weight: 300;}
+  .name{font-size: 40px; font-weight: 200; float: left; margin: 20px 15px 10px 15px; padding:15px 0px 15px 0px; text-align: center; }
+  .info{float: right;}
   .project{clear:left; margin: 0px 15px 0px 15px; max-width: 1043px; height: auto;}
-  .project:first-child{padding-top: 25px;}
+  .project:first-child{padding-top: 15px;}
   .slideshow{clear: left; max-width: 1043px;}
   img {width:100%; height:auto;}
   .text-container{display: flex; justify-content:space-between; align-items: flex-start; align-content: flex-start; margin: 50px 0px 60px 0px; max-width: 1043px;}
@@ -43,10 +43,10 @@ a:hover{color:#b0b0b0; transition: color .2s ease-out; -webkit-transition: color
 }
 @media all and (min-width: 481px) and (max-width: 768px){
   body {max-width: 1074px; margin: 0 auto;}
-  .name{font-size: 21px; font-weight: 400; float: left; margin-left: 15px; padding-top:25px; text-align: center; }
-  .info{font-size: 18px; font-weight: 300;}
+  .name{font-size: 32px; font-weight: 300; float: left; margin: 10px 15px 0px 15px; padding:15px 0px 15px 0px; text-align: center; }
+  .info{float: right;}
   .project{clear:left; margin: 0px 15px 0px 15px; max-width: 768px; height: auto;}
-  .project:first-child{padding-top: 25px;}
+  .project:first-child{padding-top: 5px;}
   .slideshow{clear: left; max-width: 1043px;}
   img {width:100%; height:auto;}
   .text-container{margin: 28px 25px 72px 0px;}
