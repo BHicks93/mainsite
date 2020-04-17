@@ -35,7 +35,7 @@ a:hover{color:#b0b0b0; transition: color .2s ease-out; -webkit-transition: color
   .project-title{color:black; font-size: 80px; line-height: 80px; font-weight: 200;}
   .project-details{min-width: 245px;}
   .project-material, .project-client, .project-year{float:left; font-size: 11px; line-height: 18px; font-weight: 300;}
-  .project-material{padding: 10px 8px 20px 0px;}
+  .project-material{padding: 10px 8px 20px 5px;}
   .project-client, .project-year {padding: 10px 8px 20px 8px;}
   .description{order:2; flex-grow: 1; margin-left: 40px; max-width: 700px;}
   .project-link{color: blue;}
