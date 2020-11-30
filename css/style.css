@@ -1,78 +1,30 @@
 @import url('https://rsms.me/inter/inter-ui.css');
 body {
-  margin:0;
+  margin:10px;
   padding:0;
-  background:#fff;
-  color:#656565;
-  position:relative;
+  background: #000;
+  color:#BCBDC0;
   font-family: 'Inter UI', Verdana, Arial, Helvetica, sans-serif;
-  font-weight: 300;
-  font-size: 18px;
-  line-height: 32px;
-  text-transform: none;
-  text-align: left;
-  transition: all ease-in-out .3s;
-  overflow-x: hidden;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 90px;
+  overflow: hidden;
 }
-.name, a, .name a{color:#000000;}
-.info {position: relative; right: 0px;}
+a, a{color:#BCBDC0;}
 a{text-decoration: none;}
-a:visited{color:#000000;}
-a:hover{color:#b0b0b0; transition: color .2s ease-out; -webkit-transition: color .2s ease-out;}
-.title{color:#333333; font-size: 38px; padding-bottom:10px; font-weight: 400; line-height: 38px; letter-spacing: -2px;}
+a:visited{color:#BCBDC0;}
+a:hover{color:#A1A1A1; transition: color .2s ease-out; -webkit-transition: color .2s ease-out;}
+.container{position: absolute; top:0px; height: 100vh; width: 100vw; display: flex; justify-content: center; align-items: center;}
+.bio{width:500px; height: 300px;}
+.contact{position: fixed; bottom: 0px; right:10px;}
 
-@media all and (min-width: 769px){
-  body {max-width: 1074px; margin: 0 auto;}
-  .name{font-size: 40px; font-weight: 200; float: left; margin: 20px 15px 10px 15px; padding:15px 0px 15px 0px; text-align: center; }
-  .info{float: right;}
-  .project{clear:left; margin: 0px 15px 0px 15px; max-width: 1043px; height: auto;}
-  .project:first-child{padding-top: 15px;}
-  .slideshow{clear: left; max-width: 1043px;}
-  img {width:100%; height:auto;}
-  .text-container{display: flex; justify-content:space-between; align-items: flex-start; align-content: flex-start; margin: 50px 0px 60px 0px; max-width: 1043px;}
-  .project-info{order:1;}
-  .project:first-child .project-info{white-space: nowrap;}
-  .project-title{color:black; font-size: 80px; line-height: 80px; font-weight: 200;}
-  .project-details{min-width: 245px;}
-  .project-material, .project-client, .project-year{float:left; font-size: 11px; line-height: 18px; font-weight: 300;}
-  .project-material{padding: 10px 8px 20px 5px;}
-  .project-client, .project-year {padding: 10px 8px 20px 8px;}
-  .description{order:2; flex-grow: 1; margin-left: 40px; max-width: 700px;}
-  .project-link{color: blue;}
-  .title{font-size: 24px; margin-bottom: 10px; padding: 0px;  line-height: 38px; letter-spacing: 0px; border-bottom: 1px solid #eee;}
+@media all and (max-width: 1440px){
+body {font-size: 54px; line-height: 64px;}
+.bio{width:322px; height: 190px;}
+.contact{left:10px;}
 }
-@media all and (min-width: 481px) and (max-width: 768px){
-  body {max-width: 1074px; margin: 0 auto;}
-  .name{font-size: 32px; font-weight: 300; float: left; margin: 10px 15px 0px 15px; padding:15px 0px 15px 0px; text-align: center; }
-  .info{float: right;}
-  .project{clear:left; margin: 0px 15px 0px 15px; max-width: 768px; height: auto;}
-  .project:first-child{padding-top: 5px;}
-  .slideshow{clear: left; max-width: 1043px;}
-  img {width:100%; height:auto;}
-  .text-container{margin: 28px 25px 72px 0px;}
-  .project-title{color:black; font-size: 80px; line-height: 80px; font-weight: 200;}
-  .project-details{min-width: 245px;}
-  .project-material, .project-client{float: left;}
-  .project-material, .project-client, .project-year{font-size: 12px; line-height: 18px; font-weight: 300;}
-  .project-material{padding: 10px 8px 20px 0px;}
-  .project-client, .project-year {padding: 10px 8px 20px 8px;}
-  .description{max-width:800px;}
-}
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px){
-  body{text-align: left;}
-  .name{float:left; font-size: 21px; font-weight: 400; text-align: left; margin: 15px 0px 0px 15px;}
-  .info{font-size: 18px; font-weight: 300;}
-  .text{padding-top: 50px;}
-  .nav-container{position: absolute; width: 100vw;}
-  .container{ margin: 0 auto; padding-top: 90px; text-align: center;}
-  .content{position: relative; top:60px;}
-  .slideshow{height: 248px;}
-  img {width:100vw; height:auto;}
-  .slide {margin:0px 0px 40px 0px;}
-  .text-container{margin: 28px 15px 72px 15px;}
-  .project-info{margin: 0px 0px 25px 0px;}
-  .project-title{font-size: 42px; line-height: 52px; font-weight: 300; color: black; padding: 0px 0px 12px 0px;}
-  .project-material, .project-client{float: left; padding: 0px 18px 0px 0px;}
-  .project-material, .project-client, .project-year{font-size: 12px; line-height: 18px; font-weight: 300;}
-  .project-link a {float: both; color:blue;}
+
+@media only screen and (max-device-width: 428px){
+.container{position: relative; display:inline-block; height: 100%; width: 100%; padding: 50px 0px 50px 0px;}
+.contact{position: relative; bottom: 0px; left: 0px;}
 }
