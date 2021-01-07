@@ -16,6 +16,7 @@ a, a{color:#9F9F9F;}
 a{text-decoration: none;}
 a:visited{color:#9F9F9F;}
 a:hover{color:#fff; transition: color .2s ease-out; -webkit-transition: color .2s ease-out;}
+.lightlink:hover{color:#000; transition: color .2s ease-out; -webkit-transition: color .2s ease-out;}
 .large{color:rgba(255, 255, 255, 0.8); font-size: calc((2.8 - 1) * 1.2vw + 1rem); line-height: 1.2; margin: 40px 0px 60px 0px;}
 .btn{display: inline-block; padding: 14px 18px; border-radius: 12px; white-space: nowrap;}
 .btnlight{ background: rgba(255, 255, 255, 0.1);}
@@ -43,4 +44,5 @@ a:hover{color:#fff; transition: color .2s ease-out; -webkit-transition: color .2
   .sentence{width: 100%;}
   .desc{margin: 18px; max-width: 450px;}
   .project{padding: 0px; margin: 40px 0px;}
+  .images img {margin: 10px 0px;}
 }
