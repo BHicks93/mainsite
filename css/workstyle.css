@@ -39,7 +39,7 @@ a:hover{color:#fff; transition: color .2s ease-out; -webkit-transition: color .2
   .project{display: inline-block; padding: 50px 50px 1px 50px; margin: 40px 0px;}
 }
 
-@media only screen and (max-width: 767px){
+@media only screen and (max-width: 844px){
   body {font-size: 16px; line-height: 22px;}
   .sentence{width: 100%;}
   .desc{margin: 18px; max-width: 450px;}
