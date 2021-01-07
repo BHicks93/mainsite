@@ -34,7 +34,7 @@ a:hover{color:#fff; transition: color .2s ease-out; -webkit-transition: color .2
 .dark{color: #000;}
 .footertext{display: flex; justify-content:space-between; padding: 40px 6vw 40px 6vw;}
 
-@media all and (min-width: 768px) and (max-width: 1440px){
+@media all and (min-width: 768px) and (max-width: 2560px){
   body {font-size: 24px; line-height: 32px;}
   .project{display: inline-block; padding: 50px 50px 1px 50px; margin: 40px 0px;}
 }
