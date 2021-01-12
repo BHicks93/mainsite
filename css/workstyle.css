@@ -15,13 +15,13 @@ p{margin:0px;}
 a, a{color:#9F9F9F;}
 a{text-decoration: none;}
 a:visited{color:#9F9F9F;}
-a:hover{color:#fff; transition: color .2s ease-out; -webkit-transition: color .2s ease-out;}
-.lightlink:hover{color:#000; transition: color .2s ease-out; -webkit-transition: color .2s ease-out;}
+a:hover{color:#fff; transition: color .3s ease; -webkit-transition: color .3s ease;}
+.lightlink:hover{color:#000; transition: color .3s ease; -webkit-transition: color .3s ease;}
 .large{color:rgba(255, 255, 255, 0.8); font-size: calc((2.8 - 1) * 1.2vw + 1rem); line-height: 1.2; margin: 40px 0px 60px 0px;}
 .btn{display: inline-block; padding: 14px 18px; border-radius: 12px; white-space: nowrap;}
 .btnlight{ background: rgba(255, 255, 255, 0.1);}
 .btndark{ background: rgba(0, 0, 0, 0.05);}
-.btnlight:hover{color: #fff; background: rgba(255, 255, 255, 0.15); transition: backgrounf .2s ease-out;}
+.btnlight:hover{color: #fff; background: rgba(255, 255, 255, 0.15); transition: opacity .5s ease;}
 .btndark:hover{color: #000; background: rgba(0, 0, 0, 0.1);}
 .headercontainer{padding: 20px 0px; background: rgba(0, 0, 0, 0);}
 .headercontainer{display: flex; justify-content:space-between; align-items:center;}
