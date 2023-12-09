@@ -1,10 +1,16 @@
-@import url('https://rsms.me/inter/inter-ui.css');
+:root {
+  font-family: Inter, sans-serif;
+  font-feature-settings: 'liga' 1, 'calt' 1; /* fix for Chrome */
+}
+@supports (font-variation-settings: normal) {
+  :root { font-family: InterVariable, sans-serif; }
+}
 body {
   margin:4vh 4vw 0vh 6vw;
   padding:0;
   background: #fff;
   color:#000;
-  font-family: 'Inter UI', Verdana, Arial, Helvetica, sans-serif;
+  font-family: Inter, Verdana, Arial, Helvetica, sans-serif;
   font-weight: 600;
   font-size: 8.4vw;
   line-height: 8.4vw;
